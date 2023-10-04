@@ -1,0 +1,116 @@
+body{
+   line-height: 200%;
+}
+
+
+header, nav{
+    /* Set padding and margin */
+    padding: 5px 15px 20px;
+    margin: 5px 10px 15px;
+
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline;
+    padding: 20px;
+    background-color: bisque;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+nav a{
+    /* Set text decoration*/
+}
+
+a:visited{
+    /* Set color */
+
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   /*Set font and font size*/
+   font-family: 'Merriweather', 'Anton', 'Times New Roman', serif;
+   font-size: larger;
+   margin: 10px 0 0 0;
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+    font-family: 'Merriweather', 'Anton', 'Times New Roman', serif;
+    font-size: larger;
+    margin: 10px 0 0 0;
+}
+
+h3{
+    /*Set font size*/
+    font-size: larger;
+    margin: 10px 0 0 0;
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    margin: auto;
+    border-radius: 5%;
+    grid-template-columns: 30% 30% 30%;    
+    justify-content: center;
+    background-color: gainsboro;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+    background-color: whitesmoke;
+    border-radius: 10%;
+    padding: 10px;
+    border: grey 5px solid;
+
+}
+
+.grid img{
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
